@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style-1.css">
+	<link rel="stylesheet" type="text/css" href="f/css/fontello.css">
+	<title>styled form</title>
+</head>
+<body>
+	<div >
+		<form action="#" method="get" class="form_size-m form-size-s">
+			<div class="form__header icon-home">
+				Обратная связь
+			</div>
+			<!--name-->
+			<div class="form__name">
+				<label for="textinput">Имя:</label>
+				<div  class="inner-addon left-addon">
+					<i class="glyphicon icon-user-1"></i>
+					<input id="textinput" name="textinput" type="text" placeholder="Введите Ваше имя" size="50px" tabindex="1" class="form__name__input">
+					
+				</div>
+			</div>
+			<!--end name-->
+			<!--email-->
+			<div class="form__email">
+				<label for="emailinput">Ваш email:</label>
+				<div  class="inner-addon left-addon">
+					<i class="glyphicon icon-mail"></i>
+					<input id="emailinput" name="emailinput" type="email" placeholder="Введите адрес Вашей почты" size="50px" tabindex="2" class="form__email__input">
+				</div>
+			</div>
+			<!--end email-->
+			<!--phone number-->
+			<div class="form__phone-number">
+				<label for="phoneinput">Ваш телефон:</label>
+				<div  class="inner-addon left-addon">
+					<i class="glyphicon icon-mobile"></i>
+					<input id="phoneinput" name="phoneinput" type="tel" placeholder="Введите номер телефона" size="50px" tabindex="3" class="form__phone-number__input">
+				</div>
+			</div>
+			<!--end phone number-->
+			<!--message-->
+			<div class="form__text">
+				<label for="messageinput">Сообщение:</label>
+				<div  class="inner-addon left-addon">
+					<i class="glyphicon icon-pencil-alt"></i>
+					<textarea id="messageinput" name="messageinput" placeholder="Текст сообщения..." tabindex="4" class="form__text__input"></textarea>
+				</div>
+			</div>
+			<!--end message--><!-- Textarea -->
+			<button type="submit" tabindex="5" class="form__button">Отправить</button>
+		
+		</form>
+	</div>
+</body>
+</html>
